@@ -6,9 +6,11 @@ on:
       - opened
     branches:
       - main
+      - 'dev-*'
   push:
     branches:
       - main
+      - 'dev-*'
     paths-ignore:
       - '.github/workflows/*'
 jobs:
